@@ -1,10 +1,21 @@
+.background_canvas {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:-1;
+}
+
+body {
+    background-color: rgb(24, 27, 34);
+}
+
 .page_frame {
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(29, 34, 43);
     overflow: hidden;
-    margin-top: 8px;
+    margin-top: 16px;
     border-radius: 8px;
-    margin-left: 230px;
-    margin-right: 230px;
+    margin-left: 280px;
+    margin-right: 280px;
 }
 
 .page_title {
@@ -21,11 +32,23 @@
     color: white;
 }
 
+.title_image {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 88px 16px;
+    border-radius: 8px;
+}
+
 .navbar_main {
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(44, 53, 70);
     overflow: hidden;
     border-radius: 8px;
-    margin-top: 8px;
+    margin-top: 12px;
     margin-left: 16px;
     margin-right: 16px;
 }
@@ -56,9 +79,9 @@
 }
 
 .content {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(36, 43, 56);
     overflow: hidden;
-    margin-top: 8px;
+    margin-top: 12px;
     border-radius: 8px;
     margin-left: 16px;
     margin-right: 16px;
@@ -74,7 +97,7 @@
 }
 
 .footer {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(40, 48, 63);
     overflow: hidden;
     margin-top: 16px;
     border-radius: 8px;
@@ -90,8 +113,4 @@
     overflow: hidden;
     font-size: 14px;
     font-family: 'Questrial', sans-serif;
-}
-
-body {
-    background-color: black;
 }
