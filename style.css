@@ -199,7 +199,6 @@ body {
 .apa_source p {
     float: left;
     color: rgb(19, 16, 13);
-    margin-left: 14px;
     overflow: hidden;
     font-size: 12px;
     font-family: 'Times New Roman', Times, serif;
